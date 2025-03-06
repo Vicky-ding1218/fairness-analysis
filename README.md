@@ -30,7 +30,7 @@ pip install shap pandas numpy matplotlib scikit-learn
 2. Run the script using Python:
 
 ```bash
-python script.py
+fairness_analysis.py
 ```
 
 3. The script will output:
