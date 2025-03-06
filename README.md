@@ -3,6 +3,12 @@
 
 This repository contains a Python script for training a Gradient Boosting Regressor model and analyzing feature importance using SHAP (SHapley Additive exPlanations). The script follows a structured pipeline including data preprocessing, model training, and visualization of feature importance.
 
+## Dataset Information
+
+This code is part of the research for the paper “What Influences the Perception of Fairness in Urban and Rural China? An Analysis Using Machine Learning.” The dataset used in this study is the Chinese Social Survey (CSS), a large-scale longitudinal sampling survey initiated by the Institute of Sociology at the Chinese Academy of Social Sciences in 2005. The purpose of the CSS is to collect data on labor and employment, family and social life, social attitudes, and other aspects of the Chinese public, providing a comprehensive resource for studying social changes in transitional China. The dataset serves as a valuable foundation for social science research and government decision-making.
+
+For more details, visit the official CSS website: http://css.cssn.cn/css_sy/.
+
 ## Features
 - Loads and preprocesses a dataset from a CSV file.
 - Handles missing values and infinite values.
