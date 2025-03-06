@@ -40,7 +40,7 @@ python fairness_analysis.py
 ## Data Preprocessing
 - Fills missing numeric values with the column mean.
 - Fills missing categorical values with the mode.
-
+- Replaces infinite values with NaN and removes missing values.
 ## Model Training
 - Uses `GradientBoostingRegressor` from `sklearn.ensemble`.
 - Splits data into training (80%) and testing (20%) subsets.
